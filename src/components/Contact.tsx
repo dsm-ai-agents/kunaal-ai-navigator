@@ -13,28 +13,32 @@ const Contact = () => {
       description: "30-minute strategy session to discuss your AI automation needs",
       cta: "Schedule Now",
       color: "electric-blue",
-      popular: true
+      popular: true,
+      href: "#contact"
     },
     {
       icon: Linkedin,
       title: "LinkedIn",
       description: "Connect for career insights and industry updates",
       cta: "Connect",
-      color: "vibrant-yellow"
+      color: "vibrant-yellow",
+      href: "https://www.linkedin.com/in/kunaal-naik/"
     },
     {
       icon: Youtube,
       title: "YouTube Channel",
       description: "Free tutorials and case studies on AI automation",
       cta: "Subscribe",
-      color: "electric-blue"
+      color: "electric-blue",
+      href: "https://www.youtube.com/KunaalNaik"
     },
     {
       icon: MessageSquare,
       title: "Data Science Masterminds",
       description: "Join our community of 10,000+ AI professionals",
       cta: "Join Community",
-      color: "vibrant-yellow"
+      color: "vibrant-yellow",
+      href: "https://datasciencemasterminds.com/"
     }
   ];
 
@@ -103,9 +107,12 @@ const Contact = () => {
                             variant="ghost" 
                             size="sm" 
                             className={`text-${method.color} hover:bg-${method.color}/10 p-0 h-auto`}
+                            asChild
                           >
-                            {method.cta}
-                            <ArrowRight className="h-4 w-4 ml-1" />
+                            <a href={method.href} target={method.href.startsWith('http') ? '_blank' : undefined} rel={method.href.startsWith('http') ? 'noopener noreferrer' : undefined}>
+                              {method.cta}
+                              <ArrowRight className="h-4 w-4 ml-1" />
+                            </a>
                           </Button>
                         </div>
                       </div>
