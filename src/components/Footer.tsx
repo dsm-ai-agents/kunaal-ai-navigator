@@ -29,22 +29,22 @@ const Footer = () => {
               </p>
               <div className="flex items-center space-x-2">
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="https://linkedin.com/in/kunaalnaik" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/kunaal-naik/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-4 w-4" />
                   </a>
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="mailto:kunaal@aiautomation.com">
+                  <a href="mailto:me@kunaalnaik.com">
                     <Mail className="h-4 w-4" />
                   </a>
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.youtube.com/KunaalNaik" target="_blank" rel="noopener noreferrer">
                     <Youtube className="h-4 w-4" />
                   </a>
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://datasciencemasterminds.com/" target="_blank" rel="noopener noreferrer">
                     <MessageSquare className="h-4 w-4" />
                   </a>
                 </Button>
@@ -119,7 +119,7 @@ const Footer = () => {
                   className="w-full border-electric-blue/30 hover:bg-electric-blue/10"
                   asChild
                 >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://datasciencemasterminds.com/" target="_blank" rel="noopener noreferrer">
                     Join Community
                   </a>
                 </Button>

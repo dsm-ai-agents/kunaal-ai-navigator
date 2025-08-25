@@ -213,7 +213,7 @@ const Contact = () => {
                 </p>
                 <Button variant="outline" size="sm" className="border-electric-blue/30 hover:bg-electric-blue/10">
                   <Mail className="h-4 w-4 mr-2" />
-                  kunaal@aiautomation.com
+                  me@kunaalnaik.com
                 </Button>
               </div>
             </div>

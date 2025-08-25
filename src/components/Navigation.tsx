@@ -54,7 +54,7 @@ const Navigation = () => {
                 size="icon"
                 asChild
               >
-                <a href="https://linkedin.com/in/kunaalnaik" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/kunaal-naik/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-4 w-4" />
                 </a>
               </Button>
@@ -109,7 +109,7 @@ const Navigation = () => {
                   size="icon"
                   asChild
                 >
-                  <a href="https://linkedin.com/in/kunaalnaik" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/kunaal-naik/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-4 w-4" />
                   </a>
                 </Button>
