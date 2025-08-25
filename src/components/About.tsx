@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Brain, Target, Lightbulb, Award, Users, Linkedin } from "lucide-react";
-import kunaalHeadshot from "@/assets/kunaal-headshot.jpg";
+// import kunaalHeadshot from "@/assets/kunaal-headshot.jpg";
 
 const About = () => {
   return (
@@ -29,7 +29,7 @@ const About = () => {
               <div className="relative">
                 <div className="relative z-10 rounded-2xl overflow-hidden shadow-elegant">
                   <img 
-                    src={kunaalHeadshot} 
+                    src="/lovable-uploads/88f09d36-5f8d-4d8f-9031-b588fe587829.png" 
                     alt="Kunaal Naik - AI Automation Coach" 
                     className="w-full h-auto object-cover"
                   />
